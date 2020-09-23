@@ -1,0 +1,9 @@
+#score{
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+}
+#startButton{
+    position: absolute;
+    top: 100px;
+    left: 175px;
+}
