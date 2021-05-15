@@ -1,9 +1,41 @@
-#score{
-    font-family: Roboto, sans-serif;
-    font-weight: 500;
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+* {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
 }
-#startButton{
-    position: absolute;
-    top: 100px;
-    left: 175px;
+body {
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#score {
+  text-align: center;
+  color: white;
+}
+#startButton {
+  display: block;
+  margin: 0 auto;
+  width: 5rem;
+  height: 4rem;
+  cursor: pointer;
+  position: absolute;
+  top: 10rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: none;
+}
+#gameCanvas {
+  display: block;
+  margin: 0 auto;
 }
